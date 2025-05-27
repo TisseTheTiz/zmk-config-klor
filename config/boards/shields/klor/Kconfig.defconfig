@@ -18,8 +18,8 @@ if SHIELD_KLOR_LEFT || SHIELD_KLOR_RIGHT
     config ZMK_SPLIT_WIRED
         default y
 
-    config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
-        default y
+    #config ZMK_SPLIT_WIRED_UART_MODE_INTERRUPT
+    #    default y
 
 
 if ZMK_DISPLAY
